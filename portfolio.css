@@ -1,0 +1,461 @@
+@charset "utf-8";
+/* CSS Document */
+/*ff0346, 03ff79, c4ff03*/
+
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+* {
+	background-color: #000000;
+}
+
+h1 {
+	font-family: 'Bad Script', cursive;
+	font-weight: 200;
+	color:#000000;
+	font-size: 64px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	background-color: #FFFFFF;
+}
+
+h2 {
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 32px;
+	font-weight: 900;
+	color: #000000;
+	text-align: center;
+	line-height: 1.5em;
+	background-color: #FFFFFF;
+}
+
+h4 {
+	font-family: 'Bad Script', cursive;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+
+h6 {
+	color: #FFFFFF;
+}
+
+p {
+	font-family: 'Poiret One', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	color: #000000;
+	text-align: justify;
+	line-height: 1.5em;
+	background-color: #FFFFFF;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+img.wireframe {
+	border: 2px solid #000000;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	width: 70%;
+	height: 70%;
+}
+
+img.luciwebsitephoto {
+	width: 70%;
+	height: 70%;
+}
+
+img.wireframeone {
+	border: 2px solid #000000;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	width: 70%;
+	height: 70%;
+}
+
+img.weddingwebsitehome {
+	width: 70%;
+	height: 70%;
+}
+
+.intro {
+	font-family: 'Fjalla One', sans-serif;
+	padding: 100px 20px 100px 20px;
+	background-color: #000000;
+	background-size: cover;
+	text-align: center;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	border-top: 5px solid #ff3d3d;
+	border-bottom: 5px solid #ff3d3d;
+}
+
+.bio {
+	font-family: 'Fjalla One', sans-serif;
+	padding: 100px 20px 100px 20px;
+	background-color: #FFFFFF;
+	background-size: cover;
+	text-align: right;
+	margin-top: 50px;
+	margin-right: 70px;
+	margin-bottom: 50px;
+	margin-left: 70px;
+	border: 2.5px solid #ff3d3d;
+}
+
+.portfolio {
+	font-family: 'Fjalla One', sans-serif;
+	padding: 100px 20px 100px 20px;
+	background-color: #FFFFFF;
+	background-size: cover;
+	text-align: center;
+	margin-right: 70px;
+	margin-bottom: 10px;
+	margin-left: 70px;
+}
+
+.button {
+	border: 2px #FFFFFF solid;;
+	padding: 5px 20px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.button-footer {
+	border: 1px #FFFFFF solid;
+	padding: 5px 20px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.button-luci {
+	border: 1px #FFFFFF solid;
+	padding: 0px 10px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footer-text {
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.style-nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.style-nav ul li a {
+	font-family: 'Poiret One', cursive;
+	font-size: 32px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+.dropbutton {
+	font-family: 'Poiret One', cursive;
+	font-size: 32px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	font-family: 'Poiret One', cursive;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	text-align: left;
+	color: #FFFFFF;
+	display: block;
+	text-transform: lowercase;
+	padding: 10px;
+}
+
+.dropdown-content a:hover {
+	background-color: #ff3d3d; 
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.nav-main a:hover {
+	color: #ff3d3d;
+}
+
+li:hover {
+	color: #ff3d3d;
+}
+
+img.profile {
+	float: left;
+	margin-right: 10px;
+}
+
+img.luciwebsitephoto {
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	border: 1px solid;
+}
+
+img.weddingwebsitehome {
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	border: 1px solid;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.column {
+	width: 100%;
+}
+
+.mySlides {
+	display: none
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-family: 'Bad Script', cursive;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*Tablet View of the website*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 1000px;
+	}
+	
+		
+	h1 {
+		font-size: 48px;
+	}
+	
+	h3 {
+		font-size: 32px;
+	}
+	
+	img.wireframe {
+		width: 80%;
+		height: 80%;
+	}
+	
+	img.luciwebsitephoto {
+		width: 80%;
+		height: 80%
+	}
+	
+	img.wireframeone {
+		width: 80%;
+		height: 80%;
+	}
+	
+	img.weddingwebsitehome {
+		width: 80%;
+		height: 80%
+	}
+	
+	.style-nav ul li a {
+		font-size: 32px;
+	}
+	
+	.style-nav ul li {
+		display: block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+
+	.dropbutton {
+		font-size: 32px;
+	}
+	
+	.column-medium-one-half {
+		width: 50%
+	}
+	
+	.column {
+		float: left;
+	}
+}
+
+/*Desktop View of the website*/
+
+@media (min-width: 1024px){
+	
+	body {
+		max-width: 1500px;
+	}
+	
+	h3 {
+		font-size: 20px;
+	}
+	
+	img.wireframe {
+		width: 50%;
+		height: 50%;
+	}
+	
+	img.luciwebsitephoto {
+		width: 100%;
+		height: 100%
+	}
+	
+	img.wireframeone {
+		width: 50%;
+		height: 50%;
+	}
+	
+	img.weddingwebsitehome {
+		width: 100%;
+		height: 100%
+	}
+	
+	.dropbutton {
+		font-size: 20px;
+	}
+	
+	.style-nav ul li a {
+		font-size: 20px;
+		margin-top: 25px;
+	}
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+}
